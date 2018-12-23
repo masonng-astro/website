@@ -76,6 +76,7 @@
 		      content.style.maxHeight = content.scrollHeight + "px";
 		    } 
 		  });
+		}
 
 		// Config.
 			config = $.extend({
