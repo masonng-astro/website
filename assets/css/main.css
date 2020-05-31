@@ -1820,7 +1820,7 @@ input, select, textarea {
 
 	ul {
 		/*display: inline-block;*/
-		/*text-align:left;*/
+		text-align:left;
 		list-style: disc;
 		padding-left: 1em;
 	}
