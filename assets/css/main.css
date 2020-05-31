@@ -1819,8 +1819,8 @@ input, select, textarea {
 /* List */
 
 	ul {
-		display: inline-block;
-		text-align:left;
+		/*display: inline-block;*/
+		/*text-align:left;*/
 		list-style: disc;
 		padding-left: 1em;
 	}
