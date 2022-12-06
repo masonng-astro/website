@@ -2450,6 +2450,7 @@ input, select, textarea {
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
+				text-align: right;
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
