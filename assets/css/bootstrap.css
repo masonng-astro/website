@@ -396,7 +396,7 @@ a:focus {
 .row-fluid:before,
 .row-fluid:after {
   display: table;
-  line-height: 0;
+  line-height: 1;
   content: "";
 }
 
