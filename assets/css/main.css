@@ -2636,3 +2636,102 @@ input, select, textarea {
 				}
 
 	}
+
+	.ulscroll {
+	list-style: none;
+	padding-left: 0;
+	padding-bottom: 0.25em;
+	padding-top: 0.25em;
+	margin-bottom: 0;
+}
+
+.ulscroll li {
+	padding-left: 0;
+}
+
+.ulscroll li a {
+	display: block;
+	padding: 0.25em 1.5em 0.25em 1.5em;
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	outline: 0;
+	border: 0;
+	-moz-transition: none;
+	-webkit-transition: none;
+	-ms-transition: none;
+	transition: none;
+}
+
+.ulscroll li a span {
+	position: relative;
+	display: block;
+	font-size: 0.8em;
+}
+
+.ulscroll li a span:before {
+	position: absolute;
+	left: 0;
+	color: #41484c;
+	text-align: center;
+	width: 1.25em;
+	line-height: 1.75em;
+}
+
+.navheader {
+	position: relative;
+	text-align: left;
+	padding: 0.25em 1.5em 0.25em 1.5em;
+}
+
+#top {
+	font-size: 20pt;
+}
+
+#avatar {
+	border-radius: 25px;
+	background: transparent;
+}
+
+#topfigure {
+	border-radius: 25px;
+	background: rgba(27, 27, 27, 0.08);
+	background: transparent;
+}
+
+.pressimg {
+	border-radius: 10px;
+	background: rgba(27, 27, 27, 0.08);
+	background: transparent;
+}
+
+.pressdiv {
+	border-radius: 25px;
+	background: rgba(27, 27, 27, 0.08);
+	background: transparent;
+	font-size: 18pt;
+}
+
+.pressheader {
+	padding: 10px;
+}
+
+.talkpoints {
+	margin-bottom: 1.0em;
+}
+
+.toptext {
+	padding: 0px;
+	background: rgba(27, 27, 27, 0.0);
+}
+
+#toprow {
+	padding: 0px;
+	margin: 0px;
+	border-radius: 25px;
+	background: rgba(27, 27, 27, 0.7);
+}
+
+.mainheadings {
+	font-size: 40pt;
+}
+
