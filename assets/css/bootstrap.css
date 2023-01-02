@@ -623,7 +623,7 @@ a:focus {
 .container:before,
 .container:after {
   display: table;
-  line-height: 1;
+  line-height: 0;
   content: "";
 }
 
