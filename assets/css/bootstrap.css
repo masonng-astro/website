@@ -623,7 +623,7 @@ a:focus {
 .container:before,
 .container:after {
   display: table;
-  line-height: 0;
+  line-height: 1;
   content: "";
 }
 
@@ -640,7 +640,7 @@ a:focus {
 .container-fluid:before,
 .container-fluid:after {
   display: table;
-  line-height: 0;
+  line-height: 1;
   content: "";
 }
 
