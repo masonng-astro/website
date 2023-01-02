@@ -2678,7 +2678,7 @@ input, select, textarea {
 
 .navheader {
 	position: relative;
-	text-align: left;
+	text-align: right;
 	padding: 0.25em 1.5em 0.25em 1.5em;
 }
 
