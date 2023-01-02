@@ -4,7 +4,7 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url("font-awesome.min.css");
+@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -540,22 +540,27 @@
 /* Icons */
 
 	.icon {
+		@include icon;
 		text-decoration: none;
 
 		&:before {
-			display: inline-block;
-			font-family: FontAwesome;
-			font-size: 1.25em;
-			text-decoration: none;
-			font-style: normal;
-			font-weight: normal;
-			line-height: 1;
-			-webkit-font-smoothing: antialiased;
-			-moz-osx-font-smoothing: grayscale;
+			line-height: inherit;
 		}
 
 		> .label {
 			display: none;
+		}
+
+		&.solid {
+			&:before {
+				font-weight: 900;
+			}
+		}
+
+		&.brands {
+			&:before {
+				font-family: 'Font Awesome 5 Brands';
+			}
 		}
 	}
 
@@ -1002,6 +1007,7 @@
 				z-index: _misc(z-index-base) + 1;
 
 				.toggle {
+					@include icon(false, solid);
 					position: absolute;
 					left: 0;
 					top: 0;
@@ -1011,16 +1017,10 @@
 					border: 0;
 
 					&:before {
-						font-family: FontAwesome;
 						text-decoration: none;
-						font-style: normal;
-						font-weight: normal;
-						-webkit-font-smoothing: antialiased;
-						-moz-osx-font-smoothing: grayscale;
 						content: '\f0c9';
 						color: #fff;
 						font-size: 18px;
-						line-height: 2.25em;
 						background: rgba(128, 136, 144, 0.5);
 						border-radius: 0.35em;
 						text-align: center;
