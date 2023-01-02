@@ -2108,7 +2108,7 @@ input, select, textarea {
 
 	#logo {
 		position: relative;
-		margin: 1.75em 1.5em 1.5em 1.5em;
+		margin: 2em 1.5em 2em 1.5em;
 		min-height: 48px;
 		cursor: default;
 	}
@@ -2132,7 +2132,7 @@ input, select, textarea {
 
 		#logo .image {
 			position: absolute;
-			left: 0;
+			left: -10px;
 			top: 0;
 		}
 
@@ -2148,7 +2148,7 @@ input, select, textarea {
 
 			#nav ul li a {
 				display: block;
-				padding: 0.5em 1.5em 0.5em 1.5em;
+				padding: 0.25em 1.5em 0.25em 1.5em;
 				color: rgba(255, 255, 255, 0.5);
 				text-decoration: none;
 				outline: 0;
@@ -2678,7 +2678,7 @@ input, select, textarea {
 
 .navheader {
 	position: relative;
-	text-align: right;
+	text-align: left;
 	padding: 0.25em 1.5em 0.25em 1.5em;
 }
 
@@ -2719,7 +2719,7 @@ input, select, textarea {
 }
 
 .toptext {
-	padding: 0.5px;
+	padding: 0px;
 	background: rgba(27, 27, 27, 0.0);
 }
 
