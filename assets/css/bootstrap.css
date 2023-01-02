@@ -5635,11 +5635,11 @@ a.thumbnail:focus {
   font-size: 11.844px;
   font-weight: bold;
   line-height: 14px;
-  color: #fa0000;
+  color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 1);
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #999999;
+  background-color: #000000;
 }
 
 .label {
