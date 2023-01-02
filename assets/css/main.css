@@ -2719,7 +2719,7 @@ input, select, textarea {
 }
 
 .toptext {
-	padding: 0px;
+	padding: 0.5px;
 	background: rgba(27, 27, 27, 0.0);
 }
 
