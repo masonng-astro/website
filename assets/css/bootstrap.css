@@ -5634,7 +5634,7 @@ a.thumbnail:focus {
   padding: 2px 4px;
   font-size: 11.844px;
   font-weight: bold;
-  line-height: 10px;
+  line-height: 15px;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 1);
   white-space: nowrap;
@@ -5649,8 +5649,8 @@ a.thumbnail:focus {
 }
 
 .badge {
-  padding-right: 9px;
-  padding-left: 9px;
+  padding-right: 10px;
+  padding-left: 10px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
   border-radius: 9px;
